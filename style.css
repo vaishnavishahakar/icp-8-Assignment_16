@@ -67,7 +67,6 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  
   /* Main content area styles */
   .content {
     width: 65%;
@@ -91,15 +90,19 @@
     margin-left: 35%;
     width: 57%;
   }
-
-  
-  /* Footer styles */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
+  /*image gallery*/
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: end;
     width: 100%;
   }
